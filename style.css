@@ -1,3 +1,74 @@
+:root {
+    --default: #FFDBFB;
+
+    --primaryfont: "Didact Gothic", sans serif;
+  }
 body {
-    background: rgb(89, 255, 0);
+    background-image: url("pattern8-pattern70c.png");
+    color:var(--default);
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content{
+    background:#000000;
+    width:70vw;
+    height:80vh;
+    margin:10vh 7vw;
+    padding:4rem;
+}
+img{
+    position:absolute;
+    width: 25vw;
+    height:70vh;
+    object-fit: contain;
+    margin:0 0 0 68vw;
+    
+}
+h1{
+    font-size: 4rem;
+    margin:0;
+}
+p{ 
+    font-size:1.5rem;
+    margin: 2rem 0 0 1rem;
+    width:50vw;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+    width:50vw;
+    margin:4rem 0 0 4rem;
+}
+a{
+    font-style: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:visited{
+    color:var(--default);
+}
+a:hover{
+    color:#000000;
+    transition: 0.3s;
+}
+.links p{
+    padding:.6rem;
+    text-align: center;
+    transition: 0.3s;
+    border-radius:10px;
+}
+.links p:hover{
+    background:white;
+    transition: 0.3s;
+
+}
+article{
+    border-left: #FFDBFB solid 3px;
+    margin: 0 0 0 3rem;
+  
 }
